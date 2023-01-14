@@ -15,14 +15,6 @@ $route = new Router(url(), ":");
 
 $route->namespace("Source\App\Api");
 
-//produtos
-$route->get('/users',"User:index");
-
-##########################
-### Api Censo Educação ###
-##########################
-$route->get('/censo',"Censo:index");
-
 ################
 ### Api Blog ###
 ################

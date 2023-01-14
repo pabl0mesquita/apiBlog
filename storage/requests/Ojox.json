@@ -2,14 +2,14 @@
     "Api": {
         "limit": 100,
         "ip": "::1",
-        "requests": 2,
-        "time": 1673723096
+        "requests": 1,
+        "time": 1673724285
     },
     "getPosts": {
         "limit": 3,
         "ip": "::1",
-        "requests": 2,
-        "time": 1673723046
+        "requests": 1,
+        "time": 1673724235
     },
     "blogCover": {
         "limit": 3,
