@@ -1,15 +1,16 @@
 # Projeto Api Blog
-> Este projeto foi desenvolvido durante o curso da Origamid. Nele, exploramos diversas ferramentas de desenvolvimento web front-end as quais podemos destacar: JavaScript(Puro), CSS3 e HTML5.
+ Este projeto foi desenvolvido no padrão MVC utilizando componentes do packgist.org para compor as camadas de Model, View e Controller. Nosso gerênciador de dependência é o composer.
 
-## Home
+## Organização do Projeto
 
-![](/img/mark/topo.png)
+O projeto foi separado no padrão MVC para melhor interoperabilidade e escalabilidade do sistema.
 
-## Seguros
+![](/themes/Web/assets/img/api/blog/org.png)
 
-![](/img/mark/seguros.png)
 
-## Contato
+O arquivo de configuração se encontra no diretório: source/Boot/Config.php. Nele, devemos configurar as credenciais do banco de dados, bem como informar a url do projeto - teste e  produção.
 
-![](/img/mark/contato.png)
+![](/themes/Web/assets/img/api/blog/conf.png)
+
+
 
