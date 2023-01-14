@@ -1,0 +1,26 @@
+{
+    "Api": {
+        "limit": 100,
+        "ip": "::1",
+        "requests": 2,
+        "time": 1673723096
+    },
+    "getPosts": {
+        "limit": 3,
+        "ip": "::1",
+        "requests": 2,
+        "time": 1673723046
+    },
+    "blogCover": {
+        "limit": 3,
+        "ip": "::1",
+        "requests": 1,
+        "time": 1673629569
+    },
+    "deletePosts": {
+        "limit": 3,
+        "ip": "::1",
+        "requests": 1,
+        "time": 1673628505
+    }
+}

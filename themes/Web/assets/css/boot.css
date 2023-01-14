@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&family=Roboto:wght@100;300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;300;400;700&display=swap');
+
+:root{
+    --green:#46ceac;
+    --green_h:#35ba9b;
+    --green_l:#61ddbc;
+
+    --blue:#4fc0e8;
+    --blue_h:#3aadd9;
+    --blue_l:#66d4f1;
+
+    --yellow:#fdcd56;
+    --yellow_h:#f5b945;
+    --yellow_l:#fbd277;
+
+    --red:#eb5463;
+    --red_h:#d94452;
+    --red_l:#f76c82;
+
+    --gray:#444444;
+
+    --button_color:#1D1D1D;
+    --button_color_text:#FFFFFF;
+
+    --radius:4px;
+
+    --rounded:50%;
+
+}
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /** define como limite de tamanha a borda o elemento **/
+}
+
+img{
+    max-width: 100%;
+}
+
+img a{
+    border: none;
+}
+
+embed,
+video,
+iframe,
+iframe[style]{
+    max-width: 100%;
+    height: auto;
+}
+
+a{
+    text-decoration: none;
+    font-weight: 700;
+}
+
+
+/* CONTAINERS */
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+
+}
+
+.embed-container{
+    position: relative;
+    max-width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+    background-color: black;
+}
+
+.embed-container embed,
+.embed-container video,
+.embed-container iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/**
+    FLEX BOX
+ **/
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.example{
+    background-color: var(--green);
+    padding-bottom: calc(33.33% - 30px);
+}
+
+.flex .flex-1{
+    flex-basis: 100%;
+
+}
+
+.flex .flex-2{
+    flex-basis: calc(50% - 40px);
+    margin: 20px;
+}
+
+
+.flex .flex-3{
+    flex-basis: calc(33.33% - 30px);
+    margin: 15px;
+}
+
+.flex .flex-4{
+    flex-basis: calc(25% - 20px);
+    margin: 10px;
+}
+
+/** 
+BOX STYLES
+**/
+.radius{
+    border-radius: var(--radius);
+}
+
+.rounded{
+    border-radius: var(--rounded);
+}
+
+.transition{
+    --seconds:0.2s;
+    transition-duration: var(--seconds);
+    cursor: pointer;
+}
+.h:hover{
+    background: var(--green);
+}
+
+/** BOX **/
+.box{
+    display: flex;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.box_container{
+    width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fbfbfb;
+}
