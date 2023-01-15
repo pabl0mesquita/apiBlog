@@ -20,7 +20,6 @@ $route->namespace("Source\App\Api");
 ################
 $route->get('/blog/posts',"Blog:index");
 $route->get('/blog/posts/{id}',"Blog:get");
-$route->get('/blog/test',"Blog:test");
 $route->post('/blog/posts', "Blog:create");
 $route->put('/blog/posts/{id}', "Blog:update");
 $route->post('/blog/posts/cover/{id}', "Blog:coverUpdate");
